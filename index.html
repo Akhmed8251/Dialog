@@ -105,7 +105,7 @@
                 <div class="hero__intro">
                     <h1 class="main-title">Мы работаем онлайн ежедневно только для вас!</h1>
                     <p class="hero__descr descr">Начните говорить по-турецки уже <span>через 2 месяца</span></p>
-                    <button type="button" class="btn open-popup hero__btn">Записаться на пробный урок</и>
+                    <button type="button" class="btn open-popup hero__btn">Записаться на пробный урок</button>
                 </div>
                 <div class="hero__image">
                     <img src="img/laptop.jpg" alt="Ноутбук с кофе">
@@ -268,6 +268,7 @@
         </section>
         <section class="subscribe">
             <div class="subscribe__container container">
+                <h2 class="visually-hidden">Подписка</h2>
                 <div class="subscribe__content">
                     <p class="subscribe__text">Подпишись на 10 бесплатных уроков «Турецкий базар» в email рассылке для
                         комфортного общения</p>
@@ -528,6 +529,7 @@
         <section class="questions">
             <div class="questions__container container">
                 <div class="questions__inner">
+                    <h2 class="visually-hidden">Вопросы</h2>
                     <div class="questions__content">
                         <p class="descr questions__descr">Остались вопросы?</p>
                         <p class="questions__text">
@@ -667,30 +669,29 @@
 
     <div class="popup popup-request">
         <div class="popup__area"></div>
-            <div class="popup__inner">
-                <button class="close-popup"></button>
-                <div class="popup-request__image">
-                    <img src="img/popup-image.jpg" alt="Пазл флага Турции">
-                </div>
-                <div class="popup-request__content">
-                    <h3 class="popup-request__content-title">Подача заявки</h3>
-                    <p class="popup-request__content-text">Оставьте свои контактные данные и наш менеджер свяжется с Вами в ближайшее время</p>
-                    <form action="#" class="popup-request__content-form content-form">
-                        <div class="content-form__item">
-                            <label class="content-form__label" for="nameAndSubname">Ваше имя и фамилия</label>
-                            <input class="content-form__input" type="text" id="nameAndSubname" placeholder="Имя и Фамилия">                           
-                        </div>
-                        <div class="content-form__item">
-                            <label class="content-form__label" for="phone">Ваш телефон/whatsapp</label>
-                            <input class="content-form__input" type="text" id="phone" placeholder="Телефон/Whatsapp">                           
-                        </div>
-                        <div class="content-form__item">
-                            <label class="content-form__label" for="phone">Ваш e-mail</label>
-                            <input class="content-form__input" type="text" id="phone" placeholder="E-mail">
-                        </div>
-                        <button class="btn popup-request__content-btn">Подать заявку</button>
-                    </form>
-                </div>
+        <div class="popup__inner">
+            <button class="close-popup"></button>
+            <div class="popup-request__image">
+                <img src="img/popup-image.jpg" alt="Пазл флага Турции">
+            </div>
+            <div class="popup-request__content">
+                <h3 class="popup-request__content-title">Подача заявки</h3>
+                <p class="popup-request__content-text">Оставьте свои контактные данные и наш менеджер свяжется с Вами в ближайшее время</p>
+                <form action="#" class="popup-request__content-form content-form">
+                    <div class="content-form__item">
+                        <label class="content-form__label" for="nameAndSubname">Ваше имя и фамилия</label>
+                        <input class="content-form__input" type="text" id="nameAndSubname" placeholder="Имя и Фамилия">                           
+                    </div>
+                    <div class="content-form__item">
+                        <label class="content-form__label" for="phone">Ваш телефон/whatsapp</label>
+                        <input class="content-form__input" type="tel" id="phone" placeholder="Телефон/Whatsapp">                           
+                    </div>
+                    <div class="content-form__item">
+                        <label class="content-form__label" for="phone">Ваш e-mail</label>
+                        <input class="content-form__input" type="email" id="email" placeholder="E-mail">
+                    </div>
+                    <button class="btn popup-request__content-btn">Подать заявку</button>
+                </form>
             </div>
         </div>
     </div>
